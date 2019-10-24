@@ -8,7 +8,7 @@ os.environ["PYSDL2_DLL_PATH"] = "c:\\directory\of\\sdl2\\library"
 
 w = 1920//2
 h = 1080//2
-cap = cv2.VideoCapture('/Users/nicholas/Desktop/train.mp4')
+cap = cv2.VideoCapture('INSERT MP4 FILE')
 
 sdl2.ext.init()
 window = sdl2.ext.Window('Driving', size=(w,h))
